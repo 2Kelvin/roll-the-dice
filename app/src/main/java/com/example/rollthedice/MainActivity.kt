@@ -57,7 +57,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier
             contentDescription = "dice 1"
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(20.dp))
 
         Button(onClick = { /*TODO*/ }) {
             Text(text = stringResource(R.string.roll))
