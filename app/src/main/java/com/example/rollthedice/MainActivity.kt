@@ -57,6 +57,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier
             contentDescription = "dice 1"
         )
 
+        // adding vertical space between the image and the button
         Spacer(modifier = Modifier.height(20.dp))
 
         Button(onClick = { /*TODO*/ }) {
