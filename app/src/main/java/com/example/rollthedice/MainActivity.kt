@@ -45,6 +45,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier
     // wrapping around the contents and then placing them in the center (vertically & horizontally)
     .wrapContentSize(Alignment.Center)
 ) {
+    // dice result
     val result = 1
 
     Column(
