@@ -45,6 +45,8 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier
     // wrapping around the contents and then placing them in the center (vertically & horizontally)
     .wrapContentSize(Alignment.Center)
 ) {
+    val result = 1
+
     Column(
         // passing the above modifier object with preset styles down to this child composable
         // to make sure it adheres to the parent styles set in the modifier object
