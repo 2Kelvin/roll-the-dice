@@ -67,6 +67,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
+            // image displayed depends on the result variable
             painter = painterResource(id = diceImg),
             contentDescription = "dice $result"
         )
